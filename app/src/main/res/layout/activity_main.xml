@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.solarex.siblingtouchevent.CustomLinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="org.solarex.siblingtouchevent.MainActivity">
+
+    <org.solarex.siblingtouchevent.CustomButton1
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:text="btn1"
+        android:background="@drawable/btn1_background"/>
+    <org.solarex.siblingtouchevent.CustomButton2
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:text="btn2"
+        android:background="@drawable/btn2_background"/>
+
+</org.solarex.siblingtouchevent.CustomLinearLayout>
